@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:100,300,normal,italic,bold,bolditalic);
+@import url(http://fonts.googleapis.com/css?family=Asap:100,300,normal,italic,bold,bolditalic);
+
+$font-stack: 'PT Sans', Helvetica, sans-serif;
+$text-color: #333;
+$freistilbox-color: #238422;
+$link-color: #80A834;
+
+* {
+  font-size: 12pt;
+}
+
+body {
+  font-family: $font-stack;
+  font-weight: normal;
+  color: $text-color;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-top: 2em;
+  color: $freistilbox-color;
+}
+
+h1 {
+  font-size: 200%;
+  counter-reset: chapter exercise figure listing;
+  counter-increment: chapter;
+  string-set: document-title content();
+  prince-bookmark-level: 1;
+}
+
+h2 {
+  font-size: 150%;
+  prince-bookmark-level: 2;
+}
+
+h3 {
+  font-size: 120%
+}
+
+a {
+  color: $link-color;
+}
+
+img {
+  max-width: 80%;
+}
+
+.pageheader {
+  font-size: 70%;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+/*
+* Print layout
+*/
+
+@media print {
+  * {
+    font-size: 12pt;
+  }
+
+  p {
+    page-break-inside: avoid;
+  }
+
+  @page {
+    size: A4;
+    margin: 1.5cm 1cm 1.5cm 1cm;
+    @top-left {
+      content: string(document-title);
+      text-align: left;
+      display: block;
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+      font-size: 8pt;
+      font-weight: normal;
+    }
+    @top-right {
+      content: counter(page);
+      text-align: right;
+      display: block;
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+      font-size: 8pt;
+      font-weight: normal;
+    }
+    @bottom {
+      content: "\00a9  freistil IT Ltd. \2014  http://freistil.it";
+      text-align: center;
+      display: block;
+      border-top: solid black thin;
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+      font-size: 8pt;
+      font-weight: normal;
+    }
+    @footnotes {
+      display: block;
+      border-top: solid black thin;
+      padding-top: 8pt
+    }
+  }
+  @page:first {
+      @top-left { content: normal }
+      @top-right { content: normal }
+  }
+}
+
+/* Language-specific settings */
+
+:lang(de) {
+  quotes: "\201E" "\201C" "\201A" "\2018";
+}
