@@ -1,7 +1,7 @@
 DOCUMENT = master
 CSS = freistilbox
 
-$(DOCUMENT).pdf: $(DOCUMENT).html $(CSS).css fMakefile
+$(DOCUMENT).pdf: $(DOCUMENT).html $(CSS).css Makefile
 	prince $< -o $@
 
 $(CSS).css: $(CSS).scss
