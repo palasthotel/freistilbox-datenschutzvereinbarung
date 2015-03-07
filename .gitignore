@@ -1,0 +1,4 @@
+*.html
+*.pdf
+.sass-cache
+freistilbox.css

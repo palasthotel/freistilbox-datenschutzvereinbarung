@@ -1,9 +1,8 @@
-DOCUMENT = your_document_here
+DOCUMENT = master
 CSS = freistilbox
 
-$(DOCUMENT).pdf: $(DOCUMENT).html $(CSS).css ../assets/header.html Makefile
+$(DOCUMENT).pdf: $(DOCUMENT).html $(CSS).css fMakefile
 	prince $< -o $@
-	cp $@ ~/Google\ Drive/Marketing/freistilbox/Whitepaper/
 
 $(CSS).css: $(CSS).scss
 	sass $< >$@
