@@ -52,6 +52,14 @@ img {
   width: 100%;
 }
 
+div.infobox {
+  border: 2px solid $freistilbox-color;
+  margin: 1em 2em 1em 2em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  font-style: italic;
+}
+
+
 /*
 * Print layout
 */

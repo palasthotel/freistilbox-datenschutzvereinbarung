@@ -2,3 +2,4 @@
 *.pdf
 .sass-cache
 freistilbox.css
+*.css.map
