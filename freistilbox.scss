@@ -6,7 +6,7 @@ $text-color: #333;
 $freistilbox-color: #238422;
 $link-color: #80A834;
 
-* {
+body {
   font-size: 12pt;
 }
 
@@ -35,7 +35,7 @@ h2 {
 }
 
 h3 {
-  font-size: 120%
+  font-size: 120%;
 }
 
 a {
@@ -46,16 +46,28 @@ img {
   max-width: 80%;
 }
 
+blockquote {
+  width: 80%;
+  margin: auto;
+  font-weight: bold;
+  font-style: italic;
+}
+
+blockquote .big {
+  font-size: 150%;
+}
+
 .pageheader {
   font-size: 70%;
   border-bottom: 1px solid black;
   width: 100%;
 }
 
-div.infobox {
-  border: 2px solid $freistilbox-color;
-  margin: 1em 2em 1em 2em;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+.infobox {
+  border: 1px solid $freistilbox-color;
+  width: 66%;
+  margin: auto;
+  padding: 1em;
   font-style: italic;
 }
 
