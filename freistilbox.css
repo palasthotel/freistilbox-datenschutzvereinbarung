@@ -9,11 +9,11 @@ body {
   color: #333; }
 
 h1, h2, h3, h4, h5 {
-  margin-top: 2em;
-  color: #238422; }
+  margin-top: 2em; }
 
 h1 {
   font-size: 200%;
+  color: #238422;
   counter-reset: chapter exercise figure listing;
   counter-increment: chapter;
   string-set: document-title content();
@@ -21,6 +21,7 @@ h1 {
 
 h2 {
   font-size: 150%;
+  color: #238422;
   prince-bookmark-level: 2; }
 
 h3 {
