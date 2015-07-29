@@ -72,6 +72,30 @@ blockquote .big {
   font-style: italic;
 }
 
+.signatureblock {
+  padding: 0; margin: 0;
+  background-color: white;
+
+  td {
+    background-color: white;
+  }
+
+  .signatureline {
+    height: 4em;
+    border-bottom: 1px dashed black;
+    vertical-align: bottom;
+  }
+
+  .alignright {
+    text-align: right;
+  }
+
+  .label {
+    td {
+      font-size: 50%;
+    }
+  }
+}
 
 /*
 * Print layout

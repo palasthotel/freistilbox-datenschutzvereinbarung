@@ -54,6 +54,21 @@ blockquote .big {
   padding: 1em;
   font-style: italic; }
 
+.signatureblock {
+  padding: 0;
+  margin: 0;
+  background-color: white; }
+  .signatureblock td {
+    background-color: white; }
+  .signatureblock .signatureline {
+    height: 4em;
+    border-bottom: 1px dashed black;
+    vertical-align: bottom; }
+  .signatureblock .alignright {
+    text-align: right; }
+  .signatureblock .label td {
+    font-size: 50%; }
+
 /*
 * Print layout
 */
@@ -107,5 +122,3 @@ blockquote .big {
 /* Language-specific settings */
 :lang(de) {
   quotes: "\201E" "\201C" "\201A" "\2018"; }
-
-/*# sourceMappingURL=freistilbox.css.map */
