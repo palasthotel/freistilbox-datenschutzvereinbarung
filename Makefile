@@ -1,11 +1,13 @@
 DOCUMENT = master
 CSS = freistilbox
 
-$(DOCUMENT).pdf: $(DOCUMENT).html $(CSS).css Makefile
+all: master.pdf anlage_1.pdf anlage_2.pdf
+
+%.pdf: %.html $(CSS).css Makefile
 	prince $< -o $@
 
-$(CSS).css: $(CSS).scss
-	sass $< >$@
+%.css: %.scss
+	sass $< > $@
 
-$(DOCUMENT).html: $(DOCUMENT).md $(CSS).css
-	multimarkdown $(DOCUMENT).md >$@
+%.html: %.md
+	multimarkdown $< > $@
