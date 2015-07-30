@@ -1,5 +1,7 @@
+---
 Title: Datenschutzvereinbarung
 CSS: freistilbox.css
+---
 
 ![](freistilbox.png)
 
