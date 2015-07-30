@@ -62,10 +62,10 @@ Kreis der von der Datenverarbeitung Betroffenen:
 
 (1) Der Auftraggeber hat das Recht, jederzeit ergänzende Weisungen über Art, Umfang und Verfahren der Wartung und Pflege von IT-Systemen gegenüber dem Auftragnehmer zu erteilen. Weisungen können
 
-* schriftlich
-* per Fax
-* per E-Mail
-* mündlich
+- schriftlich
+- per Fax
+- per E-Mail
+- mündlich
 
 erfolgen.
 
@@ -84,10 +84,10 @@ erfolgen.
 
 (4) Für den Fall, dass der Auftragnehmer feststellt oder Tatsachen die Annahme begründen, dass von ihm für den Auftraggeber verarbeitete 
 
-* besondere Arten personenbezogener Daten (§ 3 Absatz 9) oder
-* personenbezogene Daten, die einem Berufsgeheimnis unterliegen oder
-* personenbezogene Daten, die sich auf strafbare Handlungen oder Ordnungswidrigkeiten oder den Verdacht strafbarer Handlungen oder Ordnungswidrigkeiten beziehen oder
-* personenbezogene Daten zu Bank- oder Kreditkartenkonten
+- besondere Arten personenbezogener Daten (§ 3 Absatz 9) oder
+- personenbezogene Daten, die einem Berufsgeheimnis unterliegen oder
+- personenbezogene Daten, die sich auf strafbare Handlungen oder Ordnungswidrigkeiten oder den Verdacht strafbarer Handlungen oder Ordnungswidrigkeiten beziehen oder
+- personenbezogene Daten zu Bank- oder Kreditkartenkonten
 
 unrechtmäßig übermittelt oder auf sonstige Weise Dritten unrechtmäßig zur Kenntnis gelangt sind, hat der Auftragnehmer den Auftraggeber unverzüglich und vollständig über Zeitpunkt, Art und Umfang des Vorfalls/der Vorfälle in Schriftform oder Textform (Fax/E-Mail) zu informieren. Die Information muss eine Darlegung der Art der unrechtmäßigen Kenntniserlangung enthalten. Die Information soll zusätzlich eine Darlegung möglicher nachteiliger Folgen der unrechtmäßigen Kenntniserlangung beinhalten. Der Auftragnehmer ist darüber hinaus verpflichtet, unverzüglich mitzuteilen, welche Maßnahmen durch den Auftragnehmer getroffen wurden, um die unrechtmäßige Übermittlung bzw. unbefugte Kenntnisnahme durch Dritte künftig zu verhindern. 
 
