@@ -29,7 +29,7 @@ _- Auftragnehmer -_
 
 Zwischen den Parteien besteht ein Vertragsverhältnis über die Wartung und Pflege einer Managed-Hosting-Plattform zum Betrieb von Webanwendungen des Auftraggebers. Diese Vereinbarung wird als ergänzende Regelung zur Einhaltung der datenschutzrechtlichen Vorgaben des Bundesdatenschutzgesetzes (BDSG), insbesondere des § 11 BDSG ("Auftragsdatenverarbeitung") getroffen.
 
-_(Diese Vereinbarung basiert auf einem Muster von http://datenschutz-guru.de/wartungsvertrag/.)_
+_(Diese Vereinbarung basiert auf einem [Vertragsmuster](http://datenschutz-guru.de/wartungsvertrag/) von RA Stephan Hansen-Oest.)_
 
 
 ## 1. Allgemeines
