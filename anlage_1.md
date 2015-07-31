@@ -29,8 +29,10 @@ _Maßnahmen, die geeignet sind zu verhindern, dass Datenverarbeitungssysteme von
 Maßnahmen zur Zugangskontrolle bei Wartung und Pflege der Hosting-Plattform:
 
 - Wartungsarbeiten erfolgen ausschließlich über verschlüsselte SSH-Verbindungen.
-- Authentifizierung über persönliches Benutzerkonto mit Schlüsselpaar und Passphrase
-- Verwaltung der Benutzerkonten über ein zentrales System Configuration Management, das die Einheitlichkeit und Aktualität der Zugänge auf allen Servern sicherstellt.
+- Jede/r Systemadministrator/in verfügt über individuelle SSH-Schlüsselpaare, die jeweils zusätzlich mit einer Passphrase verknüpft sind.
+- Die öffentlichen Schlüssel werden durch ein zentrales System Configuration Management automatisch auf allen Servern hinterlegt, aktualisiert und nach Ausscheiden aus dem Unternehmen wieder entfernt.
+- Private Schlüssel werden individuell pro Arbeitsstation erzeugt, sodass eine gezielte Sperrung möglich ist.
+- Ausschließlich Systemadministrator/inn/en erhalten Wartungszugriff auf die IT-Infrastruktur.
 
 Maßnahmen zur Zugangskontrolle auf IT-Service-Ebene:
 
