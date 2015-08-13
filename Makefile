@@ -1,11 +1,17 @@
-DOCUMENT = master
+all: master.pdf
+
 CSS = freistilbox
 
-$(DOCUMENT).pdf: $(DOCUMENT).html $(CSS).css Makefile
+%.pdf: %.html $(CSS).css Makefile
 	prince $< -o $@
 
 $(CSS).css: $(CSS).scss
-	sass $< >$@
+	sass $< > $@
 
-$(DOCUMENT).html: $(DOCUMENT).md $(CSS).css
-	multimarkdown $(DOCUMENT).md >$@
+%.html: %.md $(CSS).css
+	multimarkdown $< > $@
+
+.PHONY: clean
+clean:
+	-rm -f *.pdf *.html *.css *.map
+
