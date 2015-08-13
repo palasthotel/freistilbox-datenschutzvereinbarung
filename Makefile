@@ -1,4 +1,5 @@
-DOCUMENT = master
+all: master.pdf
+
 CSS = freistilbox
 
 all: master.pdf anlage_1.pdf anlage_2.pdf
@@ -11,3 +12,7 @@ all: master.pdf anlage_1.pdf anlage_2.pdf
 
 %.html: %.md
 	multimarkdown $< > $@
+
+.PHONY: clean
+clean:
+	-rm -f *.pdf *.html *.css *.map
