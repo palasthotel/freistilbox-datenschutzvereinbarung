@@ -11,17 +11,17 @@ __Hosting von Webanwendungen__
 
 zwischen
 
-X GmbH
-X-Straße 123
-12345 Musterstadt
+<div class="vspace3cm">
+</div>
 
 _- Auftraggeber -_
 
 und
 
-Y GmbH
-Y-Straße 123
-12345 Musterstadt
+freistil IT Ltd.  
+13 Connawood Drive  
+Bray, Co. Wicklow  
+Irland
 
 _- Auftragnehmer -_
 
