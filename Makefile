@@ -1,8 +1,6 @@
-all: master.pdf
+all: freistilbox_datenschutzvereinbarung.pdf fbdv_anlage_1.pdf fbdv_anlage_2.pdf
 
 CSS = freistilbox
-
-all: master.pdf anlage_1.pdf anlage_2.pdf
 
 %.pdf: %.html $(CSS).css Makefile
 	prince $< -o $@
