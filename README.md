@@ -6,6 +6,6 @@ _Diese Vereinbarung basiert auf einem [Vertragsmuster](http://datenschutz-guru.d
 
 Die Datenschutzvereinbarung umfasst die folgenden Dokumente:
 
-* [Datenschutzvereinbarung](master.md)
-* [Anlage 1](anlage_1.md): Technische und organisatorische Maßnahmen des Auftragnehmers
-* [Anlage 2](anlage_2.md): Unterauftragsverhältnisse
+* [Datenschutzvereinbarung](freistilbox_datenschutzvereinbarung.md)
+* [Anlage 1](fbdv_anlage_1.md): Technische und organisatorische Maßnahmen des Auftragnehmers
+* [Anlage 2](fbdv_anlage_2.md): Unterauftragsverhältnisse
