@@ -159,27 +159,23 @@ Der Auftraggeber ist für die Wahrung der Betroffenenrechte allein verantwortlic
 
 <table class="signatureblock">
 <tr>
-<td class="signatureline alignright" style="width: 20em">,</td>
-<td class="signatureline" style="width: 10em">den</td>
+<td class="signatureline" style="width: 20em"></td>
 <td style="width: 2em"></td>
-<td class="signatureline alignright" style="width: 20em">,</td>
-<td class="signatureline" style="width: 10em">den</td>
+<td class="signatureline" style="width: 20em"></td>
 </tr>
 <tr class="label">
-<td>Ort</td>
 <td>Datum</td>
 <td></td>
-<td>Ort</td>
 <td>Datum</td>
 </tr>
 <tr>
-<td colspan="2" class="signatureline"></td>
+<td class="signatureline"></td>
 <td></td>
-<td colspan="2" class="signatureline"></td>
+<td class="signatureline"></td>
 </tr>
 <tr class="label">
-<td colspan="2">Auftraggeber</td>
+<td>Auftraggeber</td>
 <td></td>
-<td colspan="2">Auftragnehmer</td>
+<td>Auftragnehmer</td>
 </tr>
 </table>
