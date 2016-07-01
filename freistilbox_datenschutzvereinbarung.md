@@ -3,7 +3,7 @@ Title: Datenschutzvereinbarung
 CSS: freistilbox.css
 ---
 
-![](freistilbox.png)
+![](palasthotel.png)
 
 # Datenschutzvereinbarung nach § 11 BDSG
 
