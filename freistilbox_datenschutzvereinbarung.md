@@ -18,10 +18,8 @@ _- Auftraggeber -_
 
 und
 
-Palasthotel Gesellschaft für digitale Pracht mbH
-
-Kreuzstrasse 34
-
+Palasthotel Gesellschaft für digitale Pracht mbH 
+Kreuzstrasse 34 
 33602 Bielefeld
 
 _- Auftragnehmer -_
