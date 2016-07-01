@@ -18,10 +18,9 @@ _- Auftraggeber -_
 
 und
 
-freistil IT Ltd.  
-13 Connawood Drive  
-Bray, Co. Wicklow  
-Irland
+Palasthotel Gesellschaft für digitale Pracht mbH
+Kreuzstrasse 34
+33602 Bielefeld
 
 _- Auftragnehmer -_
 
